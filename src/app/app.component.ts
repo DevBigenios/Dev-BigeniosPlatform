@@ -6,6 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'bigeniosapp';
-  company = 'BiGenios S.A.S'
+  title = 'Componente base principal'
 }

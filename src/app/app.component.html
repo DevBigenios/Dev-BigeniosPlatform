@@ -1,4 +1,17 @@
-<!-- <h1>Welcome to {{title}}</h1>
-<h2>Created By {{company}}</h2> -->
+<!-- <h3>{{title}}</h3> -->
+<br>
+    <nav>
+        <a [routerLink]="['/home']" [routerLinkActive]="['activado']">Home</a>
+        -
+        <a [routerLink]="['/fruta']" [routerLinkActive]="['activado']">Fruta</a>
+        -
+        <a [routerLink]="['/empleado']" [routerLinkActive]="['activado']">Empleado</a>
+        -
+        <a [routerLink]="['/contacto']" [routerLinkActive]="['activado']">Contacto</a>
+        -
+        <a [routerLink]="['/main']" [routerLinkActive]="['activado']">Login</a>
+    </nav>
+<hr>
 
-<app-log-in></app-log-in>
+<!-- <empleado-component></empleado-component> -->
+<router-outlet></router-outlet>
