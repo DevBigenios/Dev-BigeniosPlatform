@@ -35,18 +35,18 @@ import { TooltipsComponent } from "./components/tooltips/tooltips.component";
 import { DashboardComponent } from "./dashboard/dashboard.component";
 
 const appRoutes: Routes = [
-    {path:'',component:HomeComponent},
-    {path:'empleado', component: EmpleadoComponent},
-    {path:'fruta', component: FrutaComponent},
-    {path:'home', component: HomeComponent},
-    {path:'contacto', component: ContactoComponent},
+    {path:'',component:LoginComponent},
+    {path:'empleado/', component: EmpleadoComponent},
+    {path:'fruta/', component: FrutaComponent},
+    {path:'home/', component: HomeComponent},
+    {path:'contacto/', component: ContactoComponent},
     {path:'contacto/:page', component: ContactoComponent},
-    {path:'login', component: LoginComponent},
-    {path:'main', component: MainComponent},
-    {path:'header', component: HeaderComponent},
-    { path: 'alerts', component: AlertsComponent },
-    { path: 'accordion', component: AccordionComponent },
-    { path: 'badges', component: BadgesComponent },
+    {path:'login/', component: LoginComponent},
+    {path:'main/', component: MainComponent},
+    {path:'header/', component: HeaderComponent},
+    { path: 'alerts/', component: AlertsComponent },
+    { path: 'accordion/', component: AccordionComponent },
+    { path: 'badges/', component: BadgesComponent },
     { path: 'breadcrumbs', component: BreadcrumbsComponent },
     { path: 'buttons', component: ButtonsComponent },
     { path: 'cards', component: CardsComponent },
@@ -69,7 +69,7 @@ const appRoutes: Routes = [
     { path: 'tabs', component: TabsComponent },
     { path: 'tooltips', component: TooltipsComponent },
     { path: 'dashboard', component: DashboardComponent },
-    {path:'**',component:HomeComponent}
+    {path:'**',component:MainComponent}
 ]
 
 export const appRoutingProvider: any[] = [];

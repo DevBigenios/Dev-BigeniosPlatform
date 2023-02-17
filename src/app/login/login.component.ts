@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import {Router, ActivatedRoute, Params} from '@angular/router' 
+import {Router, ActivatedRoute} from '@angular/router' 
 
 @Component({
     selector: 'login-component',
@@ -14,7 +14,7 @@ export class LoginComponent {
     ){}
 
     login(){
-        this._router.navigate(['/main',''])
+        this._router.navigate(['main/',''])
     }
     
 }

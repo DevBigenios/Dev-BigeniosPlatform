@@ -26,6 +26,6 @@ export class ContactoComponent{
     }
 
     redirigir2(){
-        this._router.navigate(['/home',''])
+        this._router.navigate(['/fruta',''])
     }
 }
