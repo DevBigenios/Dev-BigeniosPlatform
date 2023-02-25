@@ -4,11 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { routing,appRoutingProvider } from './app.routing';
 
 import { AppComponent } from './app.component';
-import { FrutaComponent } from './fruta/fruta.component';
-import { EmpleadoComponent } from './empleado/empleado.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
-import { ContactoComponent } from './contacto/contacto.component';
 import { HeaderComponent } from './layouts/header/header.component';
 import { FooterComponent } from './layouts/footer/footer.component';
 import { SidebarComponent } from './layouts/sidebar/sidebar.component';
@@ -38,11 +35,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 @NgModule({
   declarations: [
     AppComponent,
-    FrutaComponent,
-    EmpleadoComponent,
     LoginComponent,
     HomeComponent,
-    ContactoComponent,
     HeaderComponent,
     FooterComponent,
     SidebarComponent,

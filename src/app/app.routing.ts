@@ -1,10 +1,7 @@
 import { ModuleWithProviders } from "@angular/core";
 import {Routes,RouterModule} from "@angular/router"
 
-import { EmpleadoComponent } from "./empleado/empleado.component";
-import { FrutaComponent } from "./fruta/fruta.component";
 import { HomeComponent } from './home/home.component';
-import { ContactoComponent } from './contacto/contacto.component';
 import { LoginComponent } from "./login/login.component"
 import { MainComponent } from "./main.component";
 import { HeaderComponent } from "./layouts/header/header.component";
@@ -36,11 +33,7 @@ import { DashboardComponent } from "./dashboard/dashboard.component";
 
 const appRoutes: Routes = [
     {path:'',component:LoginComponent},
-    {path:'empleado/', component: EmpleadoComponent},
-    {path:'fruta/', component: FrutaComponent},
     {path:'home/', component: HomeComponent},
-    {path:'contacto/', component: ContactoComponent},
-    {path:'contacto/:page', component: ContactoComponent},
     {path:'login/', component: LoginComponent},
     {path:'main/', component: MainComponent},
     {path:'header/', component: HeaderComponent},
